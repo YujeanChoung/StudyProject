@@ -13,8 +13,9 @@ UCLASS()
 class STUDYPROJECT_API ASPPlayerController : public APlayerController
 {
 	GENERATED_BODY()
-	
-	
+
+protected:
+	virtual void BeginPlay() override;
 	
 	
 };

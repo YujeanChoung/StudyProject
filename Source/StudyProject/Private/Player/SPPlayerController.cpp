@@ -3,5 +3,9 @@
 #include "SPPlayerController.h"
 
 
+void ASPPlayerController::BeginPlay()
+{
+	Super::BeginPlay();
 
-
+	SetInputMode(FInputModeGameAndUI());
+}
